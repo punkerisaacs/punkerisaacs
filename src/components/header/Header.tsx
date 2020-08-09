@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Menu } from '../index';
 import './header.css';
