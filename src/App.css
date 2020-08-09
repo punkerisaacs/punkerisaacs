@@ -1,4 +1,54 @@
-.App {
-  padding: 0 !important;
-  margin: 0 !important;
+.font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-sub {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#banner {
+    z-index: 1;
+    height: 40vh;
+    width: 100%;
+    background-image: url('./images/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    justify-content: center;
+}
+
+#content {
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+#content-body{
+    width: 100%;
+    min-height: 80vh;
+}
+
+.background-color {
+    background-color: white;
+}
+
+.text-color {
+    color: rgb(255, 95, 105);
+}
+
+.text-color-black {
+    color: black;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }
